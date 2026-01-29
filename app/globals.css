@@ -2,22 +2,57 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* Import DM Sans from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
 
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* Sovereign Brand Colors */
+    --sovereign-blue: 209 96% 42%;        /* #046bd2 */
+    --sovereign-blue-dark: 209 96% 36%;   /* #045cb4 */
+    --sovereign-slate: 217 33% 17%;       /* #1e293b */
+    --sovereign-gray: 215 19% 27%;        /* #334155 */
+    --sovereign-light: 210 20% 98%;       /* #f9fafb */
+
+    /* shadcn defaults mapped to Sovereign */
+    --background: 0 0% 100%;
+    --foreground: 217 33% 17%;            /* slate */
+    --card: 0 0% 100%;
+    --card-foreground: 217 33% 17%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 217 33% 17%;
+    --primary: 209 96% 42%;               /* sovereign blue */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 20% 98%;             /* light gray */
+    --secondary-foreground: 217 33% 17%;
+    --muted: 210 20% 96%;
+    --muted-foreground: 215 19% 46%;
+    --accent: 210 20% 96%;
+    --accent-foreground: 217 33% 17%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 209 96% 42%;
+    --radius: 0.5rem;
+
+    /* Chart colors */
+    --chart-1: 209 96% 42%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+  }
 }
 
 @layer utilities {
