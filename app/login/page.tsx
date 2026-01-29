@@ -17,7 +17,7 @@ export default function LoginPage() {
           {/* Logo/Title */}
           <div className="text-center">
             <h1 className="text-4xl font-bold text-slate-800">
-              <span className="italic">v</span>Supervisor
+              FieldOps
             </h1>
             <p className="mt-2 text-slate-500">
               Workforce Management Demo
@@ -124,7 +124,7 @@ export default function LoginPage() {
 
       {/* Footer */}
       <footer className="py-4 text-center text-sm text-slate-500">
-        © 2026 vSupervisor Demo. All Rights Reserved.
+        © 2026 FieldOps Demo. All Rights Reserved.
       </footer>
     </div>
   );

@@ -89,12 +89,12 @@ export function MuiSidebar({ children }: { children: React.ReactNode }) {
 
           <Box sx={{ flexGrow: 1 }}>
             <Typography variant="h5" fontWeight={700} color="text.primary">
-              vSupervisor Demo
+              FieldOps Demo
             </Typography>
           </Box>
 
           <Typography variant="body2" color="text.secondary" sx={{ mr: 2 }}>
-            powered by <em>v</em>Supervisor
+            powered by FieldOps
           </Typography>
 
           <IconButton onClick={handleMenuOpen} size="small">
@@ -149,7 +149,7 @@ export function MuiSidebar({ children }: { children: React.ReactNode }) {
         >
           {open && (
             <Typography variant="h6" fontWeight={700}>
-              <em>v</em>Supervisor
+              FieldOps
             </Typography>
           )}
           <IconButton onClick={handleDrawerToggle} sx={{ color: 'white' }}>

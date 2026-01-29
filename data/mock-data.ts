@@ -1,5 +1,5 @@
 // =============================================================================
-// vSupervisor Mock Data - Anonymized Demo Data
+// FieldOps Mock Data - Anonymized Demo Data
 // =============================================================================
 
 // -----------------------------------------------------------------------------
@@ -753,7 +753,7 @@ export const procedures: Procedure[] = [
       {
         who: 'Service Provider',
         process: [
-          'Submit request through vSupervisor',
+          'Submit request through FieldOps',
           'Provide minimum 72 hours notice',
           'Include reason for request',
           'Await supervisor approval',
