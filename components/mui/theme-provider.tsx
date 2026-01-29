@@ -4,7 +4,7 @@ import { createTheme, ThemeProvider as MUIThemeProvider } from '@mui/material/st
 import CssBaseline from '@mui/material/CssBaseline';
 import { ReactNode } from 'react';
 
-// Sovereign brand colors
+// Brand colors
 const sovereignTheme = createTheme({
   palette: {
     primary: {

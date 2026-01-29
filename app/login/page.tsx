@@ -20,7 +20,7 @@ export default function LoginPage() {
               <span className="italic">v</span>Supervisor
             </h1>
             <p className="mt-2 text-slate-500">
-              Sovereign Commercial Services
+              Workforce Management Demo
             </p>
           </div>
 
@@ -34,8 +34,8 @@ export default function LoginPage() {
                 </label>
                 <Input
                   type="email"
-                  placeholder="test.user@sovereigncs.com"
-                  defaultValue="test.user@sovereigncs.com"
+                  placeholder="demo@example.com"
+                  defaultValue="demo@example.com"
                   className="h-11"
                 />
               </div>
@@ -124,7 +124,7 @@ export default function LoginPage() {
 
       {/* Footer */}
       <footer className="py-4 text-center text-sm text-slate-500">
-        © 2026 DAJ Strategic Solutions. All Rights Reserved.
+        © 2026 vSupervisor Demo. All Rights Reserved.
       </footer>
     </div>
   );

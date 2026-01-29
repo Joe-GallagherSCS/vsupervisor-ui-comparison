@@ -123,7 +123,7 @@ export function AntSidebar({ children }: { children: React.ReactNode }) {
             <span style={{ fontSize: 24 }}>S</span>
           ) : (
             <span style={{ color: 'white', fontWeight: 700, fontSize: 18 }}>
-              Sovereign Commercial
+              vSupervisor
             </span>
           )}
         </div>
@@ -166,7 +166,7 @@ export function AntSidebar({ children }: { children: React.ReactNode }) {
               />
             )}
             <span style={{ fontWeight: 600, color: '#046bd2' }}>
-              Sovereign Commercial Services
+              vSupervisor Services
             </span>
           </div>
           <Dropdown menu={{ items: userMenuItems }} placement="bottomRight">

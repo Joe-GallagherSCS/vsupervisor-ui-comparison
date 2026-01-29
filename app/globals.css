@@ -7,14 +7,14 @@
 
 @layer base {
   :root {
-    /* Sovereign Brand Colors */
-    --sovereign-blue: 209 96% 42%;        /* #046bd2 */
-    --sovereign-blue-dark: 209 96% 36%;   /* #045cb4 */
-    --sovereign-slate: 217 33% 17%;       /* #1e293b */
-    --sovereign-gray: 215 19% 27%;        /* #334155 */
-    --sovereign-light: 210 20% 98%;       /* #f9fafb */
+    /* Brand Colors */
+    --brand-blue: 209 96% 42%;        /* #046bd2 */
+    --brand-blue-dark: 209 96% 36%;   /* #045cb4 */
+    --brand-slate: 217 33% 17%;       /* #1e293b */
+    --brand-gray: 215 19% 27%;        /* #334155 */
+    --brand-light: 210 20% 98%;       /* #f9fafb */
 
-    /* shadcn defaults mapped to Sovereign */
+    /* shadcn defaults */
     --background: 0 0% 100%;
     --foreground: 217 33% 17%;            /* slate */
     --card: 0 0% 100%;

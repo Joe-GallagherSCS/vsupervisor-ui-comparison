@@ -53,7 +53,7 @@ export function ShadcnSidebar({ children }: { children: React.ReactNode }) {
         {/* Logo */}
         <div className="flex h-16 items-center justify-between border-b border-slate-700 px-4">
           {!collapsed && (
-            <span className="text-lg font-bold">Sovereign</span>
+            <span className="text-lg font-bold">vSupervisor</span>
           )}
           <Button
             variant="ghost"
@@ -108,7 +108,7 @@ export function ShadcnSidebar({ children }: { children: React.ReactNode }) {
         {/* Header */}
         <header className="sticky top-0 z-40 flex h-16 items-center justify-between border-b bg-white px-6">
           <span className="font-semibold text-[#046bd2]">
-            Sovereign Commercial Services
+            vSupervisor Commercial Services
           </span>
           <DropdownMenu>
             <DropdownMenuTrigger asChild>

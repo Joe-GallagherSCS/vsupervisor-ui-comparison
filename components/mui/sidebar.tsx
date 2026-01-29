@@ -89,7 +89,7 @@ export function MuiSidebar({ children }: { children: React.ReactNode }) {
 
           <Box sx={{ flexGrow: 1 }}>
             <Typography variant="h5" fontWeight={700} color="text.primary">
-              Sovereign Commercial Services
+              vSupervisor Demo
             </Typography>
           </Box>
 
